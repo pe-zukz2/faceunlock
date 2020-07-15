@@ -10,7 +10,8 @@ index 906cfc7..2ff4c72 100644
 +    zxing-core-1.7 \
 +    faceunlock_utils
  
- LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+ LOCAL_RESOURCE_DIR := $(LOCAL_PATH)/res \
+     packages/apps/TouchGestures/res
  
 diff --git a/res/values-ar-rSA/moto_strings.xml b/res/values-ar-rSA/moto_strings.xml
 new file mode 100644
